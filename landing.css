@@ -1,0 +1,223 @@
+html, body {
+   margin: 10px 0;
+    background-color: rgb(189, 223, 188);
+}
+
+header {
+    background-color: #fdeed6;
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+main {
+   margin: 5% 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+span {
+    padding: 10px 40px;
+    margin: 30px 0;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    background-color:  #fdeed6;
+    border-radius: 6px;
+}
+    
+img {
+    height: 100px;
+    width: auto;
+    border: 0.2px solid black;
+    border-radius: 50%;
+}
+
+div.presentation {
+   display: flex;
+   justify-content: space-around; 
+   flex-wrap: wrap;   
+} 
+
+.gauche {
+    background-color: white;
+    padding:20px;
+    border: solid 0.2px black;
+    border-radius: 1%;
+    -moz-box-shadow: 8px 8px 12px #aaa; 
+    -webkit-box-shadow: 8px 8px 12px #aaa; 
+    box-shadow: 8px 8px 12px #555; 
+    width: 30%;
+    float: left;
+}
+
+.content h1 {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 20px;
+}
+
+.content {
+    padding: 2px 10px;
+}
+
+
+p, xmp {
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.jauge {
+    background-color: rgb(192, 192, 192);
+    width: 70%;
+    border-radius: 15px;
+    border: 0.2px solid black;
+}
+
+.skill { /**partie rempli de la jauge**/
+    background-color: rgb(189, 223, 188);
+    color: white;
+    padding: 2%;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 15px;   
+
+}
+.html {
+    width: 80%;
+}
+
+.css {
+    width: 70%;
+}
+
+.js {
+    width: 65%;
+}
+
+.php {
+    width: 70%;
+}
+
+.python {
+    width: 55%;
+}
+
+.jauge:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.droite {
+    background-color: white;
+    border: solid 0.2px black;
+    border-radius: 1%;
+    -moz-box-shadow: 8px 8px 12px #aaa; 
+    -webkit-box-shadow: 8px 8px 12px #aaa; 
+    box-shadow: 8px 8px 12px #555; 
+    width: 40%;
+    float: right;
+}
+
+form>h1 {
+    background-color:  #fdeed6;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Aldrich', sans-serif;
+    text-align: center;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.input { /**s'applique au bloc d'input**/
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    margin: 20% 10%;
+}
+
+input { /**chaque input differentes**/
+    margin: 2%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea {
+    margin: 2%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+button {
+    margin: 5% 20%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(245, 208, 46);
+}
+
+
+/*partie test machine a ecrire*/
+
+*, ::before, ::after {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+ 
+
+  header>h1 {
+
+    font-weight: 400;
+    font-size: 60px;
+    text-shadow: white 0.1em 0.1em 0.2em;
+    color:black;
+    display: inline-block;
+    position: relative;
+    margin: 30px 0;
+
+  }
+
+  header>h1::after {
+
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 3px;
+    background: #dadada;
+    right: -15px;
+    top: 0;
+    animation: cursor 1s infinite;
+
+  }
+
+  @keyframes cursor {
+
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+
+        opacity: 1;
+
+    }
+
+  }

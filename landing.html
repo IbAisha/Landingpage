@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="landing.css" rel="stylesheet">
+    <script src="landing.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header> <!--Titre haut de page-->
+        <h1 aria-label="search">Vous recherchez un developpeur ?</h1>
+        <p>Vous l'avez très certainement trouvé</p>
+    </header>
+    
+    <main>
+        
+        <section class="gauche">
+
+            <div class="presentation"> <!--div nom/prenom + photo only-->
+                <span>Ibrahima Aïcha</span>
+                <img src="moi.png">
+            </div>
+
+            <div class="content"> 
+                <h1>Mes compétences</h1>
+
+                <p> <xmp><HTML></xmp></p>
+                <div class="jauge">
+                    <div class="skill html">80%</div>
+                </div>
+    
+                <p>#CSS</p>
+                <div class="jauge">
+                    <div class="skill css">70%</div>
+                </div>
+
+                <p>javaScript</p>
+                <div class="jauge">
+                    <div class="skill js">65%</div>
+                </div>
+
+                <p> <xmp><?PHP</xmp></p>
+                <div class="jauge">
+                    <div class="skill php">70%</div>
+                </div>
+
+                <p>Python</p>
+                <div class="jauge">
+                    <div class="skill python">55%</div>
+                </div>
+            </div>
+        </section>
+       
+
+        <section class="droite">
+            <form action="https://formspree.io/f/xgedbrgy"
+            method="POST">
+                <h1>Inscrivez-vous pour entrer en contact</h1>
+                <div class="input">
+                    <input type="text" name="name" placeholder="Nom et prénom" id="nom" required="">
+                    <input type="email" name="_replyto" placeholder="E-mail" id="email" required="">
+                    <textarea rows="5" name="message" placeholder ="Un message à faire passer ?" id="message"></textarea>
+                    <button>Entrons en contact !</button>
+                </div>
+            </form>
+
+        </section>
+     
+    </main>
+
+</body>
+</html>
