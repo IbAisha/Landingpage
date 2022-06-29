@@ -1,6 +1,6 @@
 html, body {
-   margin: 10px 0;
-    background-color: rgb(189, 223, 188);
+    margin:10px 0;
+    background: linear-gradient(to right, rgb(189, 223, 188), rgb(240, 253, 235)) ;  
 }
 
 header {
@@ -48,7 +48,7 @@ div.presentation {
 
 .gauche {
     background-color: white;
-    padding:20px;
+    padding:15px;
     border: solid 0.2px black;
     border-radius: 1%;
     -moz-box-shadow: 8px 8px 12px #aaa; 
@@ -61,10 +61,11 @@ div.presentation {
 .content h1 {
     font-family: 'Aldrich', sans-serif;
     font-size: 20px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
 }
 
 .content {
+    margin-top: 5%;
     padding: 2px 10px;
 }
 
@@ -144,11 +145,11 @@ form>h1 {
     flex-direction: column;
     justify-content:center;
     text-align: center;
-    margin: 20% 10%;
+    margin: 10%;
 }
 
 input { /**chaque input differentes**/
-    margin: 2%;
+    margin: 6% 2%;
     padding: 10px;
     border-radius: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -187,7 +188,7 @@ button {
   header>h1 {
 
     font-weight: 400;
-    font-size: 60px;
+    font-size: 50px;
     text-shadow: white 0.1em 0.1em 0.2em;
     color:black;
     display: inline-block;
